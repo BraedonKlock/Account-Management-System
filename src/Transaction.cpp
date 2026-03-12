@@ -1,10 +1,10 @@
 #include "Transaction.h"
 
 #include <string>
-#include <time_t>
+#include <ctime>
 
-Transaction::Transaction(const std::string transactionId, const std::string initiatorAccountId, const std::time_t timeStamp) 
+Transaction::Transaction(const std::string& transactionId, const std::string& initiatorAccountId, const std::time_t timestamp) 
 	: transactionId(transactionId),
 	  initiatorAccountId(initiatorAccountId),
-	  timeStamp(timeStamp) {
+	  timestamp(timestamp) {
 }

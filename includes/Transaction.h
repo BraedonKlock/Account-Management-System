@@ -1,20 +1,27 @@
 #pragma once
 
 #include <string>
-#include <time_t>
+#include <ctime>
 
 class Transaction {
 protected:
 	const std::string transactionId;
 	const std::string initiatorAccountId;
-	const std::time_t timeStamp;
+	const std::time_t timestamp;
 public:
-	Transaction(const std::string transactionId, const std::string initiatorAccountId, const std::time_t timeStamp);
+	Transaction(const std::string& transactionId, const std::string& initiatorAccountId, const std::time_t timestamp);
 	
-	virtual bool validate() = 0;
-	virtual std::string getType() const = 0;
+	virtual bool validate() const = 0;
+	
+	//GETTERS
+	const std::string& getTransactionId() const;
+	const std::string& getInitiatorAccountId() const;
+	const std::time_t getTimeStamp() const;
 
+	virtual std::string getType() const = 0;
+	
+	// DESTRUCTOR
 	virtual ~Transaction() = default;
 private:
 
-}
+};
