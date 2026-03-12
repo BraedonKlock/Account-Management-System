@@ -19,7 +19,10 @@ endif()
 
 # Executable
 add_executable(MiniBlockchain
-    src/main.cpp
+	src/Main.cpp
+	src/Transaction.cpp
+	src/CreateAccountTransaction.cpp
+	src/DeleteAccountTransaction.cpp
 )
 
 # Include headers
