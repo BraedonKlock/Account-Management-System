@@ -20,9 +20,20 @@ endif()
 # Executable
 add_executable(MiniBlockchain
 	src/Main.cpp
-	src/Transaction.cpp
-	src/CreateAccountTransaction.cpp
-	src/DeleteAccountTransaction.cpp
+
+	// TRANSACTIONS
+	src/transactions/Transaction.cpp
+	src/transactions/CreateAccountTransaction.cpp
+	src/transactions/DeleteAccountTransaction.cpp
+	src/transactions/TransactionStatus.cpp
+
+	// LEDGER
+	src/ledger/Ledger.cpp
+	src/ledger/LedgerState.cpp
+	src/ledger/LedgerSnapshot.cpp
+
+	//ACCOUNT
+	src/Account.cpp
 )
 
 # Include headers

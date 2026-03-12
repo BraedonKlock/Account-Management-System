@@ -1,13 +1,17 @@
 #pragma once
 
+#include "TransactionStatus.h"
+
 #include <string>
 #include <ctime>
 
-class Transaction {
+class Transaction 
+{
 protected:
 	const std::string transactionId;
 	const std::string initiatorAccountId;
 	const std::time_t timestamp;
+	TransactionStatus status;
 public:
 	Transaction(const std::string& transactionId, const std::string& initiatorAccountId, const std::time_t timestamp);
 	
@@ -16,7 +20,7 @@ public:
 	//GETTERS
 	const std::string& getTransactionId() const;
 	const std::string& getInitiatorAccountId() const;
-	const std::time_t getTimeStamp() const;
+	std::time_t getTimeStamp() const;
 
 	virtual std::string getType() const = 0;
 	
