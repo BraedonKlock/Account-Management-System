@@ -1,0 +1,23 @@
+# ninja log v5
+1	95	1773353808524083995	CMakeFiles/MiniBlockchain.dir/src/transactions/DeleteAccountTransaction.cpp.o	fe110757cfedbe34
+0	95	1773353808521428224	CMakeFiles/MiniBlockchain.dir/src/transactions/CreateAccountTransaction.cpp.o	3815cecc9eae1fe1
+2	17	1773352936142293562	CMakeFiles/MiniBlockchain.dir/src/ledger/LedgerState.cpp.o	67c7da0bf2867654
+2	17	1773352936142293562	CMakeFiles/MiniBlockchain.dir/src/ledger/Ledger.cpp.o	604545a76f6be37f
+2	17	1773352936142293562	CMakeFiles/MiniBlockchain.dir/src/ledger/LedgerSnapshot.cpp.o	b67f4b5c7c7b8b17
+3	16	1773352936142093860	CMakeFiles/MiniBlockchain.dir/src/Account.cpp.o	cafe5bfba4610e5b
+1	107	1773353540593626078	CMakeFiles/MiniBlockchain.dir/src/transactions/Transaction.cpp.o	c27e1186c8c4337c
+1	141	1773353296321525976	CMakeFiles/MiniBlockchain.dir/src/Main.cpp.o	cb24a826461a514b
+1	133	1773354030114101547	CMakeFiles/MiniBlockchain.dir/src/Main.cpp.o	cb24a826461a514b
+133	165	1773354030146543817	MiniBlockchain	5ac530060d58ebc7
+1	135	1773354118228718571	CMakeFiles/MiniBlockchain.dir/src/Main.cpp.o	cb24a826461a514b
+136	168	1773354118262500610	MiniBlockchain	5ac530060d58ebc7
+0	129	1773354326754349236	CMakeFiles/MiniBlockchain.dir/src/Main.cpp.o	cb24a826461a514b
+129	162	1773354326792351360	MiniBlockchain	5ac530060d58ebc7
+1	148	1773354477874194369	CMakeFiles/MiniBlockchain.dir/src/Main.cpp.o	cb24a826461a514b
+148	182	1773354477908850916	MiniBlockchain	5ac530060d58ebc7
+0	138	1773354544170230430	CMakeFiles/MiniBlockchain.dir/src/Main.cpp.o	cb24a826461a514b
+139	173	1773354544209692378	MiniBlockchain	5ac530060d58ebc7
+1	139	1773354704540208990	CMakeFiles/MiniBlockchain.dir/src/Main.cpp.o	cb24a826461a514b
+139	174	1773354704579253962	MiniBlockchain	5ac530060d58ebc7
+1	135	1773355034193779100	CMakeFiles/MiniBlockchain.dir/src/Main.cpp.o	cb24a826461a514b
+135	165	1773355034227381480	MiniBlockchain	5ac530060d58ebc7
