@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.16)
 
 project(Ledger
     VERSION 1.0
-    DESCRIPTION "ledger simulator in C++"
+    DESCRIPTION "Account Management System in C++"
     LANGUAGES CXX
 )
 
@@ -18,22 +18,13 @@ else()
 endif()
 
 # Executable
-add_executable(Ledger
-	src/Main.cpp
+add_executable(AccountManagementSystem
+	src/main.cpp
 
-	# TRANSACTIONS
-	src/transactions/Transaction.cpp
-	src/transactions/CreateAccountTransaction.cpp
-	src/transactions/DeleteAccountTransaction.cpp
-
-	# LEDGER
-	src/ledger/Ledger.cpp
-	src/ledger/LedgerState.cpp
-	src/ledger/LedgerSnapshot.cpp
 
 	# ACCOUNT
 	src/Account.cpp
 )
 
 # Include headers
-target_include_directories(Ledger PRIVATE includes)
+target_include_directories(AccountManagementSystem PRIVATE includes)
