@@ -56,14 +56,20 @@ Some of the concepts this project is intended to reinforce include:
 .
 ├── CMakeLists.txt
 ├── includes
-│   ├── Account.h
-│   ├── ChequingAccount.h
-│   ├── SavingsAccount.h
-│   ├── InvestmentAccount.h
+│   ├── accountMenus.h
+│   ├── AccountMenus.h
+│   └── accounts
+│       ├── account.h
+│       ├── chequingAccount.h
+│       ├── investmentAccount.h
+│       └── savingsAccount.h
 ├── README.md
 └── src
-    ├── Account.cpp
-    ├── ChequingAccount.cpp
-    ├── SavingsAccount.cpp
-    ├── InvestmentAccount.cpp
-    └── Main.cpp
+    ├── accountMenus.cpp
+    ├── AccountMenus.cpp
+    ├── accounts
+    │   ├── account.cpp
+    │   ├── chequingAccount.cpp
+    │   ├── investmentAccount.cpp
+    │   └── savingsAccount.cpp
+    └── main.cpp
