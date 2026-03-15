@@ -57,7 +57,6 @@ Some of the concepts this project is intended to reinforce include:
 ├── CMakeLists.txt
 ├── includes
 │   ├── accountMenus.h
-│   ├── AccountMenus.h
 │   └── accounts
 │       ├── account.h
 │       ├── chequingAccount.h
@@ -66,7 +65,6 @@ Some of the concepts this project is intended to reinforce include:
 ├── README.md
 └── src
     ├── accountMenus.cpp
-    ├── AccountMenus.cpp
     ├── accounts
     │   ├── account.cpp
     │   ├── chequingAccount.cpp
