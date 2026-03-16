@@ -57,11 +57,13 @@ Some of the concepts this project is intended to reinforce include:
 ├── CMakeLists.txt
 ├── includes
 │   ├── accountMenus.h
-│   └── accounts
-│       ├── account.h
-│       ├── chequingAccount.h
-│       ├── investmentAccount.h
-│       └── savingsAccount.h
+│   ├── accounts
+│   │   ├── account.h
+│   │   ├── chequingAccount.h
+│   │   ├── investmentAccount.h
+│   │   └── savingsAccount.h
+│   ├── consoleColors.h
+│   └── helper.h
 ├── README.md
 └── src
     ├── accountMenus.cpp
@@ -70,4 +72,6 @@ Some of the concepts this project is intended to reinforce include:
     │   ├── chequingAccount.cpp
     │   ├── investmentAccount.cpp
     │   └── savingsAccount.cpp
+    ├── consoleColors.cpp
+    ├── helper.cpp
     └── main.cpp
