@@ -1,9 +1,14 @@
 #pragma once
 
+#include "transaction/transaction.h"
+
 #include <string>
+#include <vector>
 
 class Account
 {
+private:
+	std::vector<Transaction> transactionHistory;
 protected:
 	double balance = 0.0;
 	Account() = default;

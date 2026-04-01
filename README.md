@@ -16,6 +16,7 @@ The program allows users to manage different account types, perform transactions
 - Withdraw money from accounts
 - Transfer money between accounts
 - Maintain transaction history
+- Search transactions
 - Enforce account-specific rules such as:
   - overdraft handling for chequing accounts
   - interest calculations for savings accounts
@@ -35,8 +36,8 @@ Some of the concepts this project is intended to reinforce include:
 - inheritance
 - polymorphism
 - encapsulation
+- templates
 - validation
-- transaction modeling with objects
 - file handling and persistence
 - const correctness
 - passing by reference
@@ -63,7 +64,10 @@ Some of the concepts this project is intended to reinforce include:
 │   │   ├── investmentAccount.h
 │   │   └── savingsAccount.h
 │   ├── consoleColors.h
-│   └── helper.h
+│   ├── helper.h
+│   └── transaction
+│       ├── transaction.h
+│       └── transactionUtils.h
 ├── README.md
 └── src
     ├── accountMenus.cpp
@@ -75,3 +79,4 @@ Some of the concepts this project is intended to reinforce include:
     ├── consoleColors.cpp
     ├── helper.cpp
     └── main.cpp
+
